@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="448.0" prefWidth="600.0" style="-fx-background-color: white;"
+            xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@style.css"
+            fx:controller="com.example.median_cut.MedianCutController">
+    <Pane layoutX="187.0" layoutY="29.0" prefHeight="230.0" prefWidth="230.0" style="-fx-background-color: #e9ecef;">
+        <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="200.0" layoutX="15.0" layoutY="15.0"
+                   onMouseClicked="#getImagePath" pickOnBounds="true" preserveRatio="true"/>
+    </Pane>
+    <Pane fx:id="c3" layoutX="270.0" layoutY="296.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c4" layoutX="400.0" layoutY="296.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c5" layoutX="526.0" layoutY="296.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c2" layoutX="140.0" layoutY="296.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c1" layoutX="40.0" layoutY="296.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c8" layoutX="270.0" layoutY="380.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c9" layoutX="400.0" layoutY="380.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c10" layoutX="526.0" layoutY="380.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c7" layoutX="140.0" layoutY="380.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Pane fx:id="c6" layoutX="40.0" layoutY="380.0" prefHeight="60.0" prefWidth="60.0"
+          style="-fx-background-color: #e9ecef;"/>
+    <Label fx:id="l1" layoutX="40.0" layoutY="275.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l2" layoutX="140.0" layoutY="275.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l3" layoutX="272.0" layoutY="275.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l4" layoutX="400.0" layoutY="275.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l5" layoutX="526.0" layoutY="275.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l6" layoutX="40.0" layoutY="361.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l7" layoutX="140.0" layoutY="361.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l8" layoutX="272.0" layoutY="361.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l9" layoutX="400.0" layoutY="361.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+    <Label fx:id="l10" layoutX="526.0" layoutY="361.0" prefHeight="15.0" prefWidth="60.0" text="#000000"/>
+</AnchorPane>

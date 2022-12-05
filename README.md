@@ -20,7 +20,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot](src/main/resources/com/example/median_cut/medianCutDemo.gif)
+<p align="center">
+  <img src="src/main/resources/com/example/median_cut/medianCutDemo.gif" alt="product-screenshot">
+    <br />
+
 
 Median cut is an algorithm to sort data of an arbitrary number of dimensions into series of sets by recursively cutting each set of data at the median point along the longest dimension (Wiki).
 
@@ -75,9 +78,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Innis - yuenci1575270674@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
